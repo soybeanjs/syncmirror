@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import process from 'node:process';
-import cac from 'cac';
+import { cac } from 'cac';
 import { consola } from 'consola';
 import { dim, red } from 'kolorist';
 import { name, version } from '../package.json';
