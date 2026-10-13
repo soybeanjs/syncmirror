@@ -9,6 +9,7 @@
 ```bash
 npx syncmirror -s @soybeanjs/cli
 ```
+
 #### sync multi packages
 
 ```bash
@@ -18,7 +19,7 @@ npx syncmirror -s @soybeanjs/cli,@soybeanjs/eslint-config
 ### use api
 
 ```ts
-import { sync } from 'syncmirror'
+import { sync } from 'syncmirror';
 
 // 1. sync single package
 // if not provide the name, it will use the package.json name
@@ -33,7 +34,7 @@ sync(['@soybeanjs/cli', '@soybeanjs/eslint-config']);
 sync('@soybeanjs/cli', {
   cwd: process.cwd(),
   log: true,
-  timeout: 1000 * 60,
+  timeout: 1000 * 60
 });
 ```
 

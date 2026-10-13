@@ -1,8 +1,8 @@
-import process from 'node:process';
-import path from 'node:path';
 import { readFile } from 'node:fs/promises';
-import { ofetch } from 'ofetch';
+import path from 'node:path';
+import process from 'node:process';
 import { consola } from 'consola';
+import { ofetch } from 'ofetch';
 
 /** Sync npmmirror Options */
 export interface SyncOptions {
